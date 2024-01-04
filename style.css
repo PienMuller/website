@@ -20,8 +20,31 @@
 
 .mg  {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #dd6092;    /* achtergrondkleur lichtgrijs */
-  color: #fdf6fa;               /* tekstkleur donkergrijs */
+  background-color: #ff3287;    /* achtergrondkleur lichtgrijs */
+  color: #ffffff;
+  font-size: 18px;               /* tekstkleur donkergrijs */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+
+.wamg  {                      /* geldt voor html en body */
+  margin: 0px;                    /* standaard marge 0 */
+ 
+  font-size: 18px;               /* tekstkleur donkergrijs */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+
+.h  {                      /* geldt voor html en body */
+  margin: 0px;                    /* standaard marge 0 */
+
+  font-size: 18px;               /* tekstkleur donkergrijs */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+
+.e  {                      /* geldt voor html en body */
+  margin: 0px;                    /* standaard marge 0 */
+  
+  font-size: 18px;               /* tekstkleur donkergrijs */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }  
 
 div {                             /* geldt voor div */
@@ -48,7 +71,7 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 } 
 
 p {
-  margin: 10px 0px;
+
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
@@ -66,8 +89,7 @@ img {
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-tekst {
-  float:right;
-  width: 450px;
+  padding: 15px;
 }
 
 /* Indeling voor sub pagina */
@@ -76,6 +98,34 @@ img {
 
 h1, h2, h3 {
       color: #faeff2;
+}
+
+
+
+h1.magical {
+  
+  color: #faeff2;
+}
+
+h1.what {
+
+  color: #faf4ef;
+}
+
+h1.history {
+
+  color: #ffffff;
+}
+
+h1.examples {
+
+  color: #effaf6;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 3em;
+
 }
 
 .smalltext {
@@ -96,11 +146,17 @@ a:hover {
 /* Opmaak voor sub pagina's */
 
 /* Navigatiebalk voor alle pagina's */
+
+
+nav.magical {
+
+}
+
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin:  auto;
     padding: 0;
-    background-color: #fec0d2;
+    background-color: #ff9dba;
     overflow: hidden;
 }
 
@@ -110,47 +166,154 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+      color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-nav li a:hover {
-    background-color: #faeff2;
+nav.magical ul {
+      background-color: #ff9dba;
+     }
+
+nav.magical {
+  background-color: #ff9dba;
+  color: #faeff2;
 }
 
-nav li a.active {
+nav li a.link {
+  text-decoration: none;
+}
+nav.magical li a.visited {
+  text-decoration: none;
+}
+nav.magical li a:hover {
+    color: #ff9dba;
     background-color: #faeff2;
+    text-decoration: none;
+}
+
+nav.magical li a.active {
+    color: #ff9dba;
+    background-color: #faeff2;
+    text-decoration: none;
+}
+
+nav.history ul {
+  background-color: #ffe877;
+ }
+
+nav.history {
+  background-color: #ffe877;
+  color: #ffffff;
+}
+
+nav li a.link {
+  text-decoration: none;
+}
+nav.history li a.visited {
+  text-decoration: none;
+}
+nav.history li a:hover {
+    color: #ffe877;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+nav.history li a.active {
+    color: #ffe877;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+nav.what ul {
+  background-color: #ffc88d;
+ }
+
+nav.what {
+  background-color: #ffc88d;
+  color: #faf4ef;
+}
+
+nav li a.link {
+  text-decoration: none;
+}
+nav.what li a.visited {
+  text-decoration: none;
+}
+nav.what li a:hover {
+    color: #ffc88d;
+    background-color: #faf4ef;
+    text-decoration: none;
+}
+
+nav.what li a.active {
+    color: #ffc88d;
+    background-color: #faf4ef;
+    text-decoration: none;
+}
+
+nav.examples ul {
+  background-color: #85ffb6;
+ }
+
+nav.examples {
+  background-color: #85ffb6;
+  color: #effaf6;
+}
+
+nav li a.link {
+  text-decoration: none;
+}
+nav.examples li a.visited {
+  text-decoration: none;
+}
+nav.examples li a:hover {
+    color: #85ffb6;
+    background-color: #effaf6;
+    text-decoration: none;
+}
+
+nav.examples li a.active {
+    color: #85ffb6;
+    background-color: #effaf6;
+    text-decoration: none;
+}
+
+nav {
+  margin-bottom: 2em;
+  font-size: 1.1em;
+  font-family: fantasy;
+  
 }
 
 .item {
-  background-color: #fec0d2;
+  background-color: #ff9dba;
 }
 
 .item2 {
-  background-color: #fee3c0;
+  background-color: #ffc88d;
 }
 
 .item3 {
-  background-color: #fef797;
+  background-color: #ffe877;
 }
 
 .item4 {
-  background-color: #c0fec9;
+  background-color: #85ffb6;
 }
 
 .wamg {
-  background-color: #fcc04f;
-  color: #faf6ef
+  background-color: #ffb11f;
+  color: #ffffff
 }
 
 .h {
-  background-color: #f2e74d;
+  background-color: #fed611;
   color: #ffffff
 }
 
 .e {
-  background-color: #75e3a3;
-  color: #f4fcf7
+  background-color: #49ef8e;
+  color: #ffffff
 }
