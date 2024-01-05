@@ -47,6 +47,13 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }  
 
+.r  {                      /* geldt voor html en body */
+  margin: 0px;                    /* standaard marge 0 */
+  
+  font-size: 18px;               /* tekstkleur donkergrijs */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+
 div {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
@@ -120,6 +127,11 @@ h1.history {
 h1.examples {
 
   color: #effaf6;
+}
+
+h1.reccomandations {
+
+  color: rgb(238, 242, 255)af6;
 }
 
 h1 {
@@ -280,6 +292,33 @@ nav.examples li a.active {
     text-decoration: none;
 }
 
+nav.reccomendations ul {
+  background-color: #85b2ff;
+ }
+
+nav.reccomendations {
+  background-color: #85b2ff;
+  color: #eff1fa;
+}
+
+nav li a.link {
+  text-decoration: none;
+}
+nav.reccomendations li a.visited {
+  text-decoration: none;
+}
+nav.reccomendations li a:hover {
+    color: #85b2ff;
+    background-color: #eff1fa;
+    text-decoration: none;
+}
+
+nav.reccomendations li a.active {
+    color: #85b2ff;
+    background-color:#eff1fa;
+    text-decoration: none;
+}
+
 nav {
   margin-bottom: 2em;
   font-size: 1.1em;
@@ -303,17 +342,26 @@ nav {
   background-color: #85ffb6;
 }
 
+.item5 {
+  background-color: #85b2ff;
+}
+
 .wamg {
-  background-color: #ffb11f;
+  background-color: #ffa909;
   color: #ffffff
 }
 
 .h {
-  background-color: #fed611;
+  background-color: #fbd100;
   color: #ffffff
 }
 
 .e {
-  background-color: #49ef8e;
+  background-color: #2fe57b;
+  color: #ffffff
+}
+
+.r {
+  background-color: #577ff8;
   color: #ffffff
 }
