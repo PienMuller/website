@@ -375,18 +375,18 @@ nav {
 }
 
 /* images */
-.sailorscouts {
+.centerpicture {
   width: 60%;
   margin:30px auto;
 }
 
-.sailorscouts img {
+.centerpicture img {
   object-fit: cover;
   width: 100%;
   margin: 0px;
 }
 
-.sailorscouts span {
+.centerpicture span {
   font-weight: bold;
   font-size: .8em;
 }
