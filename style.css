@@ -61,7 +61,7 @@ div {                             /* geldt voor div */
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 810px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
@@ -346,9 +346,7 @@ nav {
   background-color: #ffe877;
 }
 
-.item4 {
-  background-color: #85ffb6;
-}
+
 
 .item5 {
   background-color: #85b2ff;
@@ -372,6 +370,15 @@ nav {
 .r {
   background-color: #577ff8;
   color: #ffffff
+}
+
+.item4 > div {
+  display: inline-block;
+  width:30%;
+  vertical-align: text-top;
+  background-color: #85ffb6;
+  margin:10px;
+  padding:10px;
 }
 
 /* images */
@@ -431,4 +438,8 @@ display: inline-block;
 .nojustify {
   display: block;
   text-align: left; 
+}
+
+.pfp {
+  width: 100%;
 }
