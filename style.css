@@ -99,6 +99,14 @@ img {
   padding: 15px;
 }
 
+.item-list {
+  margin: 15px;
+}
+
+.item-list li {
+  margin-bottom: 10px;
+}
+
 /* Indeling voor sub pagina */
 
 /* Opmaak voor alle pagina's */
@@ -364,4 +372,63 @@ nav {
 .r {
   background-color: #577ff8;
   color: #ffffff
+}
+
+/* images */
+.sailorscouts {
+  width: 60%;
+  margin:30px auto;
+}
+
+.sailorscouts img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0px;
+}
+
+.sailorscouts span {
+  font-weight: bold;
+  font-size: .8em;
+}
+
+.kunziteandzoisite {
+  width: 60%;
+  margin:30px auto;
+}
+
+.kunziteandzoisite img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0px;
+}
+
+.kunziteandzoisite span {
+  font-weight: bold;
+  font-size: .8em;
+}
+
+.yukitoandtouya {
+  width: 60%;
+  margin:30px auto;
+}
+
+.yukitoandtouya img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0px;
+}
+
+.yukitoandtouya span {
+  font-weight: bold;
+  font-size: .8em;
+}
+
+.fiftypercentimg {
+width:49%;
+display: inline-block;
+}
+
+.nojustify {
+  display: block;
+  text-align: left; 
 }
