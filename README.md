@@ -22,3 +22,5 @@ https://validator.w3.org/
 
 
 Pien, you have to change the tekst in pink, so ist in the middle. make sure theres a gap between the tekst and navigation thing on all the pages. add a sailor moon picture under the tekst on yellow. three pictures + three blocks of tekst on green. and two blocks of tekst and two pictures criss cross on orange. and change the nacigation thing so that the color matches every page/
+
+test submitting by GEES
